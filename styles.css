@@ -1,0 +1,254 @@
+*{
+	
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	color:#666;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+    /*font-size:12px;*/
+
+}
+
+.form-horizontal{
+	margin:0 auto;
+	width:550px;
+	position:relative;
+	border:1px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+ul.todoList{
+	
+	width:545px;
+	position:relative;
+
+}
+
+ul.todoList li{
+	
+	border:1px solid #EEEEEE;
+	list-style:none;
+	margin:6px;
+	padding:6px 9px;
+	position:relative;
+	
+
+	
+	
+	text-shadow:1px 1px 0 white;
+	
+
+}
+
+ul.todoList li:hover{
+
+	
+	background-color:#FCFED5;
+
+
+}
+
+
+.todo .text{
+	margin:6px;
+	color:#5b5b5b;
+	font-size:12px;
+	display: inline;
+	font-weight:bold;
+}
+
+.todo input[type="checkbox"]{
+ position: relative; 
+ left: 0; top: 0;
+ width: 16px; height: 16px;
+ cursor: pointer; 
+}
+
+	
+.todo .actions{
+	position:absolute;
+	right:7px;
+	top:6px;
+
+}
+
+.todo .actions a{
+	display:block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	float:left;
+	text-indent:-9999px;
+	margin:3px;
+
+}
+
+
+
+.todo .actions a.edit{
+	background:url("img/edit.png") no-repeat center center;
+	
+}
+
+.todo .actions a.delete{
+	background:url("img/delete.png") no-repeat center center;
+	
+}
+
+
+.todo .actions a.replace{
+	cursor:n-resize;
+	background:url("img/replace.png") no-repeat center center;
+	
+}
+
+
+
+.todo input{
+	border:1px solid #CCCCCC;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:0.725em;
+	padding:3px 4px;
+	width:300px;
+}
+
+
+
+.editTodo{
+	display:inline;
+	font-size:0.8em;
+	padding-left:9px;
+}
+
+.editTodo a{
+	font-weight:bold;
+}
+
+a.discardChanges{
+	color:#C00 !important;
+	font-size:1em;
+}
+
+a.saveChanges{
+	color:#4DB209 !important;
+	font-size:1em;
+}
+
+
+
+.ui-button,.ui-dialog-titlebar{
+	font-size:0.72em !important;
+}
+
+#dialog-confirm{
+	display:none;
+	font-size:0.9em;
+	padding:1em 1em 0;
+}
+
+
+#taskField{
+	display:block;
+	text-align:left;
+	padding:9px;
+	background-color:#CCCCCC;
+
+}
+
+#addButton{
+	
+    padding: 4px 26px;
+    color: white;
+    font-size:12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #666;
+    background-color: #4CA57B;
+	font-weight:bold;
+	text-shadow:0 1px 1px black;
+}
+
+
+/* The styles below are only necessary for the styling of the demo page: */
+
+#main{
+	position:relative;
+	margin:0 auto;
+	width:960px;
+
+}
+
+h1{
+	padding:20px 0;
+	text-align:center;
+	text-shadow:0 1px 1px white;
+	margin-bottom:30px;
+	/*background-color:#f8f8f8;*/
+	font-size:26px;
+}
+
+h1,h2,h3{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+h2{
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	
+	position:absolute;
+	right:40px;
+	top:40px;
+}
+
+h3{
+	color: white;
+	/*text-align:center;*/
+	background-color:#1D87C4;
+	padding:15px;
+	text-shadow:0 1px 1px black;
+	font-size:14px;
+}
+h4{
+	color: green;
+	text-align:left;
+	display: inline;
+	font-size:50px;
+	position:relative;
+	top:10px;
+}
+.note{
+	font-size:12px;
+	font-style:italic;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.message{
+	width:400px;
+	/*position:relative;*/
+	padding:3px 4px;
+	margin-left:6px;
+	/*background-color:#F9F9F9;*/
+}
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
